@@ -2,7 +2,7 @@
 
 # Версия операционной системы
 os_version=$(cat /etc/os-release | grep "PRETTY_NAME" | cut -d '"' -f 2)
-
+тест
 # Дата и время
 current_date=$(date "+%Y-%m-%d")
 current_time=$(date "+%H:%M:%S")
